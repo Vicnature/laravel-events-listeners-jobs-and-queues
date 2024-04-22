@@ -30,5 +30,6 @@ class UserLoggedin
     $log->save();
 
     return redirect('/passed');
+    // redirect not functional.Do more research
     }
 }
